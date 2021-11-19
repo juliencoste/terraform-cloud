@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "eu-central1"
+  region = "eu-central-1"
 }
 
 resource "aws_instance" "myec2" {
